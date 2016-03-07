@@ -3,6 +3,8 @@ def fib(n):
 		return n
 	else:
 		return fib(n-1)+fib(n-2)
+n=int(input("n"))
+if(n>=1):
+	for i in range(n):
 
-for i in range(25):
 		print (fib(i))
